@@ -22,10 +22,10 @@ export const ContactSection = () => {
   try {
     // ------------------- EMAILJS SEND -------------------
     await emailjs.sendForm(
-  "Saran@123", 
-  "template_hygob3v", 
-  e.target,
-  "W3GeM5PHal68NEI4D" 
+      "service_s4ubxwg", 
+      "template_2mycsk8", 
+      e.target,
+      "W3GeM5PHal68NEI4D" 
     );
 
     toast({
