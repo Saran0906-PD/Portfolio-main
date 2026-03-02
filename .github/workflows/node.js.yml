@@ -14,9 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -36,3 +38,9 @@ jobs:
 
       - name: Deploy to S3
         run: aws s3 sync Portfolio-main/dist/ s3://saran-portfolio-site --delete
+
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id EBCKSU9BEE9JO \
+            --paths "/*"
