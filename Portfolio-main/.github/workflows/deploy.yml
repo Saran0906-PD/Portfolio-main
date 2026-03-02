@@ -23,9 +23,11 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
+        working-directory: ./Portfolio-main
         run: npm install
 
       - name: Build project
+        working-directory: ./Portfolio-main
         run: npm run build
 
       - name: Configure AWS credentials
@@ -35,5 +37,4 @@ jobs:
           aws-region: ap-south-1
 
       - name: Deploy to S3
-        run: |
-          aws s3 sync dist/ s3://saran-portfolio-site --delete
+        run: aws s3 sync Portfolio-main/dist/ s3://saran-portfolio-site --delete
