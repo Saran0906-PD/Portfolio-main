@@ -20,14 +20,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install dependencies
-        working-directory: ./Portfolio-main
+        working-directory: Portfolio-main
         run: npm install
 
       - name: Build project
-        working-directory: ./Portfolio-main
+        working-directory: Portfolio-main
         run: npm run build
 
       - name: Configure AWS credentials
@@ -38,3 +38,9 @@ jobs:
 
       - name: Deploy to S3
         run: aws s3 sync Portfolio-main/dist/ s3://saran-portfolio-site --delete
+
+      - name: Invalidate CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id EBCKSU9BEE9JO \
+            --paths "/*"
