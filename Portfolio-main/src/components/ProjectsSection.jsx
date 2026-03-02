@@ -10,22 +10,22 @@ const projects = [
     demoUrl: "https://chat-application-o5so.onrender.com",
     githubUrl: "https://github.com/Saran0906-PD/Chat_Application",
   },
-  {
-    id: 2,
-    title: "Credit Card Fraud Detection",
-    description:
-      "Developed an SVM-based machine learning model to identify fraudulent transactions with 97% accuracy. .",
-    image: "/projects/project2.png",
-    tags: ["Python", "Numpy", "Pandas", "Scikit-Learn"],
-    demoUrl: "https://colab.research.google.com/drive/1Pp7kv08Hz1XRcb_G8AbLwK5xqbZNyw62?usp=sharing",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 2,
+  //   title: "Credit Card Fraud Detection",
+  //   description:
+  //     "Developed an SVM-based machine learning model to identify fraudulent transactions with 97% accuracy. .",
+  //   image: "/projects/project2.png",
+  //   tags: ["Python", "Numpy", "Pandas", "Scikit-Learn"],
+  //   demoUrl: "https://colab.research.google.com/drive/1Pp7kv08Hz1XRcb_G8AbLwK5xqbZNyw62?usp=sharing",
+  //   githubUrl: "#",
+  // },
   {
     id: 3,
     title: "Portfolio Website with Automated CI/CD Deployment",
     description:
       "A personal portfolio website showcasing my projects and skills, with automated CI/CD deployment using GitHub Actions.",
-    image: "/projects/project3.png",
+      image: "/projects/project3.png",
     tags: ["React ", "AWS S3", "Amazon CloudFront", "AWS IAM", "TailwindCSS","AWS DynamoDB", "AWS Lambda"],
     demoUrl: "https://dm29u2h6p2kwa.cloudfront.net/",
     githubUrl: "https://github.com/Saran0906-PD/Portfolio-main",
