@@ -16,7 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I specialize in building intelligent systems and full-stack web applications using modern technologies like React.js, Node.js, and Python-based AI/ML frameworks.
+              I specialize in building intelligent systems and full-stack web applications using modern technologies like React.js, Node.js, and n8n workflow automation.
             </p>
 
             <p className="text-muted-foreground">
@@ -30,7 +30,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1eP9wp8xjEr5WmF9D7B8qR8CmOHn-REvQ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1r2cusV8kMYOjLoaY4nnuAlKFjIW_v68a/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
@@ -62,10 +62,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Machine Learning</h4>
+                  <h4 className="font-semibold text-lg">Workflow Automation (n8n)</h4>
                   <p className="text-muted-foreground">
-                    Building and training predictive models using diverse datasets, Hyper-parameter tuning of algorithms
-                    to improve accuracy.
+                   Designing and implementing workflow automation systems using n8n, integrating multiple services for email processing, task management, and real-time decision making to improve operational efficiency.
                   </p>
                 </div>
               </div>

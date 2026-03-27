@@ -10,16 +10,15 @@ const projects = [
     demoUrl: "https://chat-application-o5so.onrender.com",
     githubUrl: "https://github.com/Saran0906-PD/Chat_Application",
   },
-  // {
-  //   id: 2,
-  //   title: "Credit Card Fraud Detection",
-  //   description:
-  //     "Developed an SVM-based machine learning model to identify fraudulent transactions with 97% accuracy. .",
-  //   image: "/projects/project2.png",
-  //   tags: ["Python", "Numpy", "Pandas", "Scikit-Learn"],
-  //   demoUrl: "https://colab.research.google.com/drive/1Pp7kv08Hz1XRcb_G8AbLwK5xqbZNyw62?usp=sharing",
-  //   githubUrl: "#",
-  // },
+  {
+    id: 2,
+    title: "AI-Powered HR Virtual Secretary",
+    description: "An AI-driven email automation system built with n8n that handles meeting scheduling, task reminders, urgent alerts, and resume analysis using real-time workflows.",
+    image: "/projects/project2.png",
+    tags: ["n8n", "JavaScript", "PostgreSQL", "Gmail API", "Google Calendar API", "Telegram API", "Gemini AI"],
+    demoUrl: "",
+    githubUrl: "https://github.com/Saran0906-PD/n8n-hr-virtual-secretary",
+},
   {
     id: 3,
     title: "Portfolio Website with Automated CI/CD Deployment",
