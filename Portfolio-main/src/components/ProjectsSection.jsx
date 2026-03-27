@@ -16,7 +16,6 @@ const projects = [
     description: "An AI-driven email automation system built with n8n that handles meeting scheduling, task reminders, urgent alerts, and resume analysis using real-time workflows.",
     image: "/projects/project2.png",
     tags: ["n8n", "JavaScript", "PostgreSQL", "Gmail API", "Google Calendar API", "Telegram API", "Gemini AI"],
-    demoUrl: "",
     githubUrl: "https://github.com/Saran0906-PD/n8n-hr-virtual-secretary",
 },
   {
